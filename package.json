@@ -1,0 +1,22 @@
+{
+  "name": "synergyinternshipfinaltask_hrsystem",
+  "version": "1.0.0",
+  "description": "Small HR system created using PL/SQL, Node.JS and Angular",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mimz-skywalker/SynergyInternshipFinalTask_HRSystem.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mimz-skywalker/SynergyInternshipFinalTask_HRSystem/issues"
+  },
+  "homepage": "https://github.com/mimz-skywalker/SynergyInternshipFinalTask_HRSystem#readme",
+  "dependencies": {
+    "oracledb": "^4.2.0"
+  }
+}
