@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src = "register_script.js"></script>
+</head>
+
+<body>
+    <form name="registerForm">
+        <table width="20%"  align="center">
+
+            <tr>
+                <td colspan=2>
+                    <center>
+                        <font size=4><b>HTML Register Page</b></font>
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td id = "label">Candidate</td>
+                <td>
+                    <label class="switch">
+                        <input id = "checkBtn" type="checkbox" onclick= "change()" checked>
+                        <span class="slider round"></span>
+                      </label>
+                </td>
+            </tr>
+            <tr>
+                <td id = "username"> Username:</td>
+                <td><input type="text" size=25 name="userid"></td>
+            </tr>
+
+            <tr>
+                <td id = "pass"> Password:</td>
+                <td><input type="Password" size=25 name="pwd"></td>
+            </tr>
+
+            <tr>
+                <td id = "confirmPass"> Enter password again:</td>
+                <td><input type="password" size=25 name="pwd2"></td>
+            </tr>
+
+            <tr>
+                <td id = "firstName" class = "user"> First name:</td>
+                <td><input type="text" class = "user" size=25 name="pwd2"></td>
+            </tr>
+
+            <tr>
+                <td id = "lastName" class = "user"> Last name:</td>
+                <td><input type="text" class = "user" size=25 name="pwd2"></td>
+            </tr>
+            
+            <tr id = "companyName" class = "employer" style = "visibility: hidden;">
+                <td class = "employer"> Company Name:</td>
+                <td><input type="text" class = "employer" size=25 name="pwd2"></td>
+            </tr>
+
+            <td><input type="submit" value="Register"></td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>
